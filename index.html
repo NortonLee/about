@@ -18,7 +18,7 @@
 		var link = document.createElement('link');
 		link.rel = 'stylesheet';
 		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'assets/css/print/pdf.css' : 'assets/css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
 </head>
@@ -30,10 +30,34 @@
 				<div>李驰</div>
 				<div>Norton.Li</div>
 			</section>
-			<section .slide: data-background="#334434">未来，不只是想象</section>
-			<section data-markdown>
+			<section .slide: data-background="#666666">
+				<div>未来，不只是想象</div>
+				<div>Fulture Builder</div>
+			</section>
+			<section data-markdown .slide: data-background="#99CC99">
+				<div data-template>
+					#### 我关注的方向 / Concern Points
+				<script type="text/template">
+					- 前端 <!-- .element: class="fragment" data-fragment-index="1" -->
+					- .Net <!-- .element: class="fragment" data-fragment-index="2" -->
+					- 系统架构 <!-- .element: class="fragment" data-fragment-index="3" -->
+					- AI <!-- .element: class="fragment" data-fragment-index="4" -->
+				</script>
+				</div>
+			</section>
+			<section data-markdown .slide: data-background="#99CCCC">
+					<div data-template>
+						#### 如何与我联系 / Contact
+					<script type="text/template">
+						- 微信/QQ:  957657843 <!-- .element: class="fragment" data-fragment-index="1" -->
+						- E-mail:  lizard@yeah.net <!-- .element: class="fragment" data-fragment-index="2" -->
+						- GitHub:  NortonLee <!-- .element: class="fragment" data-fragment-index="3" -->
+					</script>
+					</div>
+				</section>
+			<section data-markdown .slide: data-background="#003333">
 				<textarea data-template>
-					欢迎我访问我的[个人博客](http://www.nortonli.me)
+					#### 欢迎我访问我的[个人博客](http://www.nortonli.me)
 				</textarea>
 			</section>
 		</div>
@@ -44,6 +68,16 @@
 
 	<script>
 		Reveal.initialize({
+			controls: true,
+			progress: false,
+			slideNumber: false,
+			history: false,
+			keyboard: true,
+			overview: true,
+			mouseWheel: true,
+			hideAddressBar: true,
+			loop:true,
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
