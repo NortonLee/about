@@ -1,0 +1,19 @@
+{
+  "name": "about",
+  "version": "1.0.0",
+  "description": "Abount Norton.LI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NortonLee/about.git"
+  },
+  "author": "Norton.Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NortonLee/about/issues"
+  },
+  "homepage": "https://github.com/NortonLee/about#readme"
+}
