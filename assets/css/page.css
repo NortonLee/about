@@ -1,0 +1,7 @@
+.esc{
+    min-height: 500px;
+    min-width: 100%;
+    background: url(../images/esc.jpg) center no-repeat;
+    background-size:contain;
+    padding-top:2em !important;
+}
